@@ -1,0 +1,106 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: #dcbefc;
+
+}
+
+.login-container-main-page {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+
+}
+
+.login-btn-main-page {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn-main-page:hover {
+    background-color: #e0e0e0;
+}
+
+.button-container-main-page {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 50px;
+
+}
+
+.button-main-page {
+    font-weight: 600;
+    font-size: 14px;
+    color: #0c050c;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 -3px #35a76e inset;
+    transition: 0.3s;
+}
+
+.button-main-page:hover {
+    background-color: #35a76e;
+}
+
+.title-container {
+    font-family: 'Pacifico', cursive;
+    font-weight: 500;
+    display: flex;
+    gap: 15px
+}
+
+.title-with {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.title-fun {
+    color: #ff9a8b;
+    font-size: 40px;
+}
+
+.title-flags {
+    color: #35a76e;
+    font-size: 40px;
+}
+
+.btn-cards {
+    background-color: #fff;
+}
+
+.btn-training {
+    background-color: #fcdab3;
+}
+
+.btn-test {
+    background-color: #d1ecf1;
+}
+
+.btn-account {
+    background-color: #c6e3c1;
+}
+
+.btn-leaderboard {
+    background-color: #dcdcdc;
+}
